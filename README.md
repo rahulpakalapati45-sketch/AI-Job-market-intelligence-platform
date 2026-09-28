@@ -77,6 +77,54 @@ Jobs
  └── Job_Locations ─── Locations
 ```
 
+## Project Metrics
+
+The processed dataset contains:
+
+| Metric | Value |
+|---|---:|
+| Unique Job Postings | 97,679 |
+| Skills Identified | 44,005 |
+| Job-Skill Relationships | 752,372 |
+| Locations | 1,947 |
+| Job-Location Relationships | 131,198 |
+| Salary Disclosure Rate | 33.93% |
+
+These metrics are calculated from the processed Indian job-market dataset included in the repository.
+
+## Key Analytical Insights
+
+The platform supports analysis of:
+
+- Most in-demand technical and business skills
+- Skill demand by job role
+- Skill demand by category
+- Job opportunities by location
+- Experience-level job distribution
+- Work-type distribution
+- Salary patterns across experience levels
+- Company-level job opportunity distribution
+- Role-specific skill requirements
+- Resume-to-market skill matching
+- Missing-skill identification and learning recommendations
+
+## Example Market Findings
+
+Among the processed job postings, frequently observed skills include:
+
+- Sales
+- Python
+- Project Management
+- Customer Service
+- SAP
+- Management
+- CSS
+- Java
+- SQL
+- Business Development
+
+The platform can also filter the analysis by specific roles such as Data Analyst and Data Engineer to identify role-specific skill requirements.
+
 ## Resume Skill Gap Analyzer
 
 The Streamlit application allows a user to:
@@ -109,7 +157,7 @@ The dashboard contains:
 
 The Power BI source file is available at:
 
-`powerbi/rahul.pbix`
+`powerbi/Job_Market_Intelligence_Dashboard.pbix`
 
 Open the `.pbix` file using Microsoft Power BI Desktop to explore the complete dashboard and data model.
 
@@ -134,7 +182,7 @@ API keys are entered at runtime and are not stored in the repository.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-job-market-intelligence-platform.git
+git clone https://github.com/rahulpakalapati45-sketch/AI-Job-market-intelligence-platform.git
 cd ai-job-market-intelligence-platform
 ```
 
@@ -199,3 +247,30 @@ The objective is to demonstrate how data engineering, analytics, visualization, 
 ## Disclaimer
 
 Market statistics and recommendations are based on the dataset included with this project and should be interpreted within the scope and coverage of that dataset.
+
+## Dashboard Screenshots
+
+### Power BI — Market Overview
+
+The Market Overview dashboard summarizes job-market volume, experience levels, salary information, work arrangements, locations, companies, and in-demand skills.
+
+![Power BI Market Overview](screenshots/powerbi_market_overview.png)
+
+### Power BI — Skill Intelligence
+
+The Skill Intelligence dashboard analyzes skill demand across categories and supports filtering by skill category and job role.
+
+![Power BI Skill Intelligence](screenshots/powerbi_skill_intelligence.png)
+
+### Power BI — Role & Skill Intelligence
+
+This dashboard provides role-level analysis including experience, salary, work type, company opportunities, and role-specific skill demand.
+
+![Power BI Role & Skill Intelligence](screenshots/powerbi_role_skill_intelligence.png)
+
+### Streamlit — Resume Skill Gap Analyzer
+
+The Streamlit application extracts skills from a candidate's resume, compares them with market requirements for the selected role, identifies missing skills, and provides AI-powered career analysis using Gemini.
+
+![Streamlit Skill Gap Analyzer](screenshots/streamlit_skill_gap_analyzer.png)
+
