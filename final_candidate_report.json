@@ -1,0 +1,91 @@
+{
+    "target_role": "data analyst",
+    "market_weighted_skill_match": 63.95,
+    "matched_skills": [
+        "data analysis",
+        "sql",
+        "python",
+        "power bi",
+        "data visualization",
+        "excel"
+    ],
+    "missing_skills": [
+        "tableau",
+        "data management",
+        "business intelligence",
+        "advanced excel",
+        "data quality",
+        "data modeling",
+        "data warehousing",
+        "macros",
+        "sas",
+        "etl",
+        "data collection",
+        "sas programming",
+        "data mining",
+        "machine learning"
+    ],
+    "recommendations": [
+        {
+            "skill_name": "tableau",
+            "demand_percentage": 18.726591760299627,
+            "job_count": 50,
+            "priority": "High"
+        },
+        {
+            "skill_name": "data management",
+            "demand_percentage": 12.734082397003746,
+            "job_count": 34,
+            "priority": "High"
+        },
+        {
+            "skill_name": "business intelligence",
+            "demand_percentage": 8.614232209737828,
+            "job_count": 23,
+            "priority": "Medium"
+        },
+        {
+            "skill_name": "advanced excel",
+            "demand_percentage": 7.116104868913857,
+            "job_count": 19,
+            "priority": "Medium"
+        },
+        {
+            "skill_name": "data quality",
+            "demand_percentage": 6.367041198501873,
+            "job_count": 17,
+            "priority": "Medium"
+        },
+        {
+            "skill_name": "data modeling",
+            "demand_percentage": 6.367041198501873,
+            "job_count": 17,
+            "priority": "Medium"
+        },
+        {
+            "skill_name": "data warehousing",
+            "demand_percentage": 5.617977528089887,
+            "job_count": 15,
+            "priority": "Medium"
+        },
+        {
+            "skill_name": "macros",
+            "demand_percentage": 5.617977528089887,
+            "job_count": 15,
+            "priority": "Medium"
+        },
+        {
+            "skill_name": "sas",
+            "demand_percentage": 5.617977528089887,
+            "job_count": 15,
+            "priority": "Medium"
+        },
+        {
+            "skill_name": "etl",
+            "demand_percentage": 5.2434456928838955,
+            "job_count": 14,
+            "priority": "Medium"
+        }
+    ],
+    "ai_analysis": "1. OVERALL PROFILE\nThe candidate is targeting the Data Analyst role with a market-weighted skill match of 63.95%. The resume currently demonstrates foundational capabilities in core areas such as data analysis, SQL, Python, Power BI, data visualization, and Excel, but lacks several key tools and data management competencies frequently requested in the current job market.\n\n2. MATCHED SKILLS\nThe candidate's strongest current assets are data analysis, SQL, Python, Power BI, data visualization, and Excel. These matched skills cover the essential technical baseline for extracting, manipulating, analyzing, and presenting data using modern programming languages and visualization tools.\n\n3. SKILL GAPS\nBased on the supplied job-market data, the candidate's missing skills include:\n- Tableau (Demand: 18.73%, 50 jobs, High Priority)\n- Data Management (Demand: 12.73%, 34 jobs, High Priority)\n- Business Intelligence (Demand: 8.61%, 23 jobs, Medium Priority)\n- Advanced Excel (Demand: 7.12%, 19 jobs, Medium Priority)\n- Data Quality (Demand: 6.37%, 17 jobs, Medium Priority)\n- Data Modeling (Demand: 6.37%, 17 jobs, Medium Priority)\n- Data Warehousing (Demand: 5.62%, 15 jobs, Medium Priority)\n- Macros (Demand: 5.62%, 15 jobs, Medium Priority)\n- SAS (Demand: 5.62%, 15 jobs, Medium Priority)\n- ETL (Demand: 5.24%, 14 jobs, Medium Priority)\n*(Additional unranked missing skills identified from the resume comparison: data collection, sas programming, data mining, and machine learning).*\n\n4. WHY THESE SKILLS MATTER\nBased on market demand data, the top missing skills serve critical functions for Data Analysts:\n- **Tableau (18.73% demand):** It is the single highest-demand missing tool in the market dataset, widely used by employers to build interactive dashboards and visualize complex data insights.\n- **Data Management (12.73% demand):** This high-priority skill ensures that data assets are organized, secure, and maintained efficiently throughout their lifecycle.\n- **Business Intelligence (8.61% demand):** Enables analysts to translate raw data into actionable insights that support strategic business decision-making.\n\n5. PRIORITIZED LEARNING ROADMAP\nTo efficiently close the gap according to market demand, follow this learning sequence:\n1. **High Priority:** Learn **Tableau** to complement existing Power BI and data visualization skills, and study **Data Management** principles.\n2. **Medium Priority (Core BI & Analysis):** Learn **Business Intelligence** concepts, **Advanced Excel**, and **Macros** to strengthen reporting automation.\n3. **Medium Priority (Data Architecture & Quality):** Focus on **Data Modeling**, **Data Quality**, **Data Warehousing**, and **ETL** pipelines.\n4. **Specialized Tools:** Explore **SAS** and SAS programming if specific target industries require it.\n\n6. PROJECT IDEAS\n- **Multi-Platform Dashboard Project:** Build an interactive dashboard using **Tableau** alongside your existing Power BI skills to demonstrate broad visualization capabilities. Incorporate **Advanced Excel** sheets or **Macros** to handle initial data cleaning and automation.\n- **ETL and Data Quality Pipeline:** Create a mini project using Python and SQL that extracts raw data, performs **ETL** steps, applies **Data Quality** checks (handling missing values, validating formats), and loads the clean data into a basic **Data Warehousing** schema.\n- **Business Intelligence Reporting Tool:** Design a comprehensive **Business Intelligence** report that utilizes **Data Modeling** techniques to connect multiple tables, solving a specific business problem and presenting the findings clearly.\n\n7. FINAL ACTION PLAN\n- Update your resume to clearly highlight your current matched skills (SQL, Python, Power BI, Excel).\n- Begin learning Tableau through online tutorials or community datasets to address the highest-demand gap (18.73%).\n- Practice advanced spreadsheet functions and macros to improve your efficiency in data manipulation.\n- Document at least one end-to-end project in your portfolio that incorporates data modeling or ETL concepts to address enterprise data requirements.\n- Tailor your job applications toward roles that heavily utilize your existing Python and SQL stack while slowly acquiring the missing BI and data management skills."
+}
