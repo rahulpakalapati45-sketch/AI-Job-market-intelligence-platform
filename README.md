@@ -92,19 +92,26 @@ The Streamlit application allows a user to:
 
 ## Power BI Dashboard
 
-The Power BI component provides interactive analysis including:
+The project includes the complete Power BI dashboard used for interactive job-market analysis.
 
-- Total job opportunities
-- Total skills
-- Skill demand
-- Top skills
-- Top locations
-- Experience distribution
-- Average salary by experience
-- Work-type distribution
-- Top companies
-- Role-specific skill demand
-- Skill-category analysis
+The dashboard contains:
+
+- Market Overview
+- Skill Intelligence
+- Role & Skill Intelligence
+- Job opportunity analysis
+- Experience-level analysis
+- Salary analysis
+- Work-type analysis
+- Top company analysis
+- Skill demand analysis
+- Role-specific skill analysis
+
+The Power BI source file is available at:
+
+`powerbi/rahul.pbix`
+
+Open the `.pbix` file using Microsoft Power BI Desktop to explore the complete dashboard and data model.
 
 ## AI Analysis
 
@@ -157,6 +164,9 @@ ai-job-market-intelligence-platform/
 ├── .gitignore
 ├── README.md
 ├── final_candidate_report.json
+│
+├── powerbi/
+│   └── rahul.pbix
 │
 └── data/
     ├── jobs.csv
